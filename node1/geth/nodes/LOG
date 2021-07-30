@@ -33,3 +33,39 @@
 23:29:11.255243 table@remove removed @2
 23:33:08.143057 db@close closing
 23:33:08.143057 db@close done T·0s
+=============== Jul 30, 2021 (CDT) ===============
+00:26:57.543807 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:26:57.544807 version@stat F·[0 1] S·42KiB[0B 42KiB] Sc·[0.00 0.00]
+00:26:57.544807 db@open opening
+00:26:57.544807 journal@recovery F·1
+00:26:57.546807 journal@recovery recovering @6
+00:26:57.549823 memdb@flush created L0@9 N·548 S·17KiB "loc..seq,v1907":"n:\xfd..ong,v1934"
+00:26:57.553460 version@stat F·[1 1] S·60KiB[17KiB 42KiB] Sc·[0.25 0.00]
+00:26:57.567184 db@janitor F·5 G·1
+00:26:57.567184 db@janitor removing table-5
+00:26:57.567711 db@open done T·22.9025ms
+00:26:57.577114 table@compaction L0·1 -> L1·1 S·60KiB Q·2454
+00:26:57.581675 table@build created L1@12 N·1560 S·57KiB "loc..seq,v1907":"version,v1"
+00:26:57.581675 version@stat F·[0 1] S·57KiB[0B 57KiB] Sc·[0.00 0.00]
+00:26:57.585432 table@compaction committed F-1 S-2KiB Ke·0 D·148 T·8.3172ms
+00:26:57.585432 table@remove removed @8
+00:28:17.995317 db@close closing
+00:28:17.995317 db@close done T·0s
+=============== Jul 30, 2021 (CDT) ===============
+00:28:22.398543 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:28:22.399065 version@stat F·[0 1] S·57KiB[0B 57KiB] Sc·[0.00 0.00]
+00:28:22.399065 db@open opening
+00:28:22.399065 journal@recovery F·1
+00:28:22.400681 journal@recovery recovering @10
+00:28:22.411811 memdb@flush created L0@13 N·265 S·8KiB "loc..seq,v2456":"n:\xfc..ong,v2593"
+00:28:22.413783 version@stat F·[1 1] S·66KiB[8KiB 57KiB] Sc·[0.25 0.00]
+00:28:22.428319 db@janitor F·5 G·1
+00:28:22.428319 db@janitor removing table-9
+00:28:22.428319 db@open done T·29.2523ms
+00:28:22.439575 table@compaction L0·1 -> L1·1 S·66KiB Q·2720
+00:28:22.445174 table@build created L1@16 N·1752 S·64KiB "loc..seq,v2456":"version,v1"
+00:28:22.445174 version@stat F·[0 1] S·64KiB[0B 64KiB] Sc·[0.00 0.00]
+00:28:22.448340 table@compaction committed F-1 S-2KiB Ke·0 D·73 T·8.7652ms
+00:28:22.448871 table@remove removed @12
+00:30:04.838916 db@close closing
+00:30:04.838916 db@close done T·0s
