@@ -119,7 +119,7 @@ This function takes 4 inputs
 
 """
 def send_tx(coin, account, to, amount):
-    if coin == BTC :
+    if coin == BTCTEST :
         tx = create_tx(coin, account, to, amount)
         signed_tx = account.sign_transaction(tx)
         return NetworkAPI.broadcast_tx_testnet(signed_tx)
@@ -130,3 +130,11 @@ def send_tx(coin, account, to, amount):
     else:
         return "error, unsupported coin"
 
+# address1 = coins[BTCTEST][0]["address"]
+# privkey = coins[BTCTEST][0]["privkey"]
+# print(f"The private key for the first address {address1} is: {privkey}")
+# acct1 = priv_key_to_account(BTCTEST, privkey)
+# print(acct1)
+# recipient = coins[BTCTEST][1]["address"]
+# tx = send_tx(BTCTEST, acct1, recipient, 0.0001)
+# print(tx)
